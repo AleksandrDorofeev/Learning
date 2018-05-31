@@ -50,6 +50,19 @@ int main() { //функция main с которой начинается каж
     //unsigned, берем тип и диапазон значений считаем от 0, тогда колличество отрицательного диапазона
     //прибавляем к положительному(было от -32 768 до 32 767, стало от 0 до 65 535)
 
+//////////////////////////////////////////////////////////////////////////////
+
+    std::string name, surname;
+
+    std::cout << "Enter your name: " ;
+    //cin - console input
+    std::cin >> name;
+
+    std::cout << "Enter you surname: " ;
+    std::cin >> surname;
+
+    std::cout << "Welcome " + name + " " + surname;
+
     return 0;
 }
 
