@@ -16,7 +16,7 @@ int main() { //функция main с которой начинается каж
 
 //////////////////////////////////////////////////////////////////////////////
 
-    //int - integer, 4 bites = 8 bits памяти От -2 147 483 648 до 2 147 483 647
+    //int - integer, 4 bites = 32 bits памяти От -2 147 483 648 до 2 147 483 647
     //"=" - инициализация
     int A = 4;
     std::cout << A << std::endl;
@@ -25,30 +25,30 @@ int main() { //функция main с которой начинается каж
 
     //short - short int, 2 bites От -32 768 до 32 767
     short t1 = 5;
-    std::cout << t1 <<std::endl;
+    std::cout << t1 << std::endl;
 
     //float - floating number
     float t2 = 3.14; //4 bites
-    std::cout << t2 <<std::endl;
+    std::cout << t2 << std::endl;
 
     //double
     double t3 = 3.14; //8 bites
-    std::cout << t3 <<std::endl;
+    std::cout << t3 << std::endl;
 
     //char - character
     char t4 = 'a';
-    std::cout << t4 <<std::endl;
+    std::cout << t4 << std::endl;
 
     //string
     std::string t5 = "Hello!";
-    std::cout << t5 <<std::endl;
+    std::cout << t5 << std::endl;
 
     //boolean
     bool t6 = true;
-    std::cout << t6 <<std::endl;
+    std::cout << t6 << std::endl;
 
-    //unsigned, берем тип и диапазон значений считаем от 0, тогда колличество отрицательного диапазона
-    //прибавляем к положительному(было от -32 768 до 32 767, стало от 0 до 65 535)
+    //unsigned, берем тип и диапазон значений считаем от 0, тогда удваивается
+    //положительный диапазон(было от -32 768 до 32 767, стало от 0 до 65 535)
 
 //////////////////////////////////////////////////////////////////////////////
 
