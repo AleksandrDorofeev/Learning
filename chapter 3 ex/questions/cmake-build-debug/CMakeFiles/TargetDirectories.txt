@@ -1,0 +1,3 @@
+/Users/dorofeevaleksandr/CLionProjects/chapter 3 ex/questions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/dorofeevaleksandr/CLionProjects/chapter 3 ex/questions/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dorofeevaleksandr/CLionProjects/chapter 3 ex/questions/cmake-build-debug/CMakeFiles/questions.dir
